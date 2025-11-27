@@ -1,0 +1,44 @@
+/* style.css */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(120deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #fff;
+  color: #2575fc;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2575fc;
+  color: #fff;
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta {
+  background: #2575fc;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
